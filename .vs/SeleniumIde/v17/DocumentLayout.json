@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Stef\\Documents\\Stef\\SoftUni\\Front-end-Auto\\Resources\\SeleniumIDE\\SeleniumIdeSolution\\SeleniumIde\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E36F676-21B4-4579-BA68-023E330BF1EF}|SeleniumIde.csproj|c:\\users\\stef\\documents\\stef\\softuni\\front-end-auto\\resources\\seleniumide\\seleniumidesolution\\seleniumide\\tc01ifuserisinvalidtryagaintest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E36F676-21B4-4579-BA68-023E330BF1EF}|SeleniumIde.csproj|solutionrelative:tc01ifuserisinvalidtryagaintest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E36F676-21B4-4579-BA68-023E330BF1EF}|SeleniumIde.csproj|c:\\users\\stef\\documents\\stef\\softuni\\front-end-auto\\resources\\seleniumide\\seleniumidesolution\\seleniumide\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E36F676-21B4-4579-BA68-023E330BF1EF}|SeleniumIde.csproj|solutionrelative:usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E36F676-21B4-4579-BA68-023E330BF1EF}|SeleniumIde.csproj|c:\\users\\stef\\documents\\stef\\softuni\\front-end-auto\\resources\\seleniumide\\seleniumidesolution\\seleniumide\\seleniumide.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E36F676-21B4-4579-BA68-023E330BF1EF}|SeleniumIde.csproj|solutionrelative:seleniumide.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\Stef\\Documents\\Stef\\SoftUni\\Front-end-Auto\\Resources\\SeleniumIDE\\SeleniumIdeSolution\\SeleniumIde\\Usings.cs",
+              "RelativeDocumentMoniker": "Usings.cs",
+              "ToolTip": "C:\\Users\\Stef\\Documents\\Stef\\SoftUni\\Front-end-Auto\\Resources\\SeleniumIDE\\SeleniumIdeSolution\\SeleniumIde\\Usings.cs",
+              "RelativeToolTip": "Usings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T14:55:19.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeleniumIde",
+              "DocumentMoniker": "C:\\Users\\Stef\\Documents\\Stef\\SoftUni\\Front-end-Auto\\Resources\\SeleniumIDE\\SeleniumIdeSolution\\SeleniumIde\\SeleniumIde.csproj",
+              "RelativeDocumentMoniker": "SeleniumIde.csproj",
+              "ToolTip": "C:\\Users\\Stef\\Documents\\Stef\\SoftUni\\Front-end-Auto\\Resources\\SeleniumIDE\\SeleniumIdeSolution\\SeleniumIde\\SeleniumIde.csproj",
+              "RelativeToolTip": "SeleniumIde.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-26T14:51:38.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TC01IfUserIsInvalidTryAgainTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Stef\\Documents\\Stef\\SoftUni\\Front-end-Auto\\Resources\\SeleniumIDE\\SeleniumIdeSolution\\SeleniumIde\\TC01IfUserIsInvalidTryAgainTest1.cs",
+              "RelativeDocumentMoniker": "TC01IfUserIsInvalidTryAgainTest1.cs",
+              "ToolTip": "C:\\Users\\Stef\\Documents\\Stef\\SoftUni\\Front-end-Auto\\Resources\\SeleniumIDE\\SeleniumIdeSolution\\SeleniumIde\\TC01IfUserIsInvalidTryAgainTest1.cs",
+              "RelativeToolTip": "TC01IfUserIsInvalidTryAgainTest1.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T02:56:29.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
