@@ -7,7 +7,6 @@
 
 ### This is a test project for Front-End Test Automation July 2024 Course @ SoftUni
 
-## Selenium IDE
 This project demonstrates my skills in using Selenium IDE, a record-and-playback tool, to quickly create and execute UI tests without needing to write code manually. Selenium IDE allows for easy test case creation and provides a way to export these tests into different programming languages if further customization is required.
 
 ### Key Features:
