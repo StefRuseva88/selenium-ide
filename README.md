@@ -21,6 +21,12 @@ To run these tests, import the scripts into Selenium IDE and execute. Tests are 
 - Adjust Chrome security settings for smooth testing when using hardcoded credentials.
 - For Firefox, the Google Password Manager interference is minimized.
 
+## Additional Resources
+- [Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
+- [GitHub Documentation](https://docs.github.com/)
+
+This suite is designed for educational purposes, demonstrating comprehensive test coverage on popular demo applications and practical Selenium techniques.
+
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
