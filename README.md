@@ -22,9 +22,7 @@ To run these tests, import the scripts into Selenium IDE and execute. Tests are 
 - For Firefox, the Google Password Manager interference is minimized.
 
 ## Additional Resources
-- [Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
-- [GitHub Documentation](https://docs.github.com/)
-
+[Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
 This suite is designed for educational purposes, demonstrating comprehensive test coverage on popular demo applications and practical Selenium techniques.
 
 ## Contributing
