@@ -9,11 +9,6 @@
 
 This project demonstrates my skills in using Selenium IDE, a record-and-playback tool, to quickly create and execute UI tests without needing to write code manually. Selenium IDE allows for easy test case creation and provides a way to export these tests into different programming languages if further customization is required.
 
-### Key Features:
-- Creating automated tests through recording user interactions with the browser.
-- Exporting test scripts in different formats, such as C# with WebDriver code.
-- Running automated tests directly from the browser to quickly verify web functionalities.
-- Integrating with GitHub Actions for continuous testing and reporting.
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
