@@ -23,11 +23,11 @@ To run these tests, import the scripts into Selenium IDE and execute. Tests are 
 
 ### Number Calculator
 This test suite covers the following validations:
-1. **Input Validation**: Ensures numeric-only input fields, checks for error messages on invalid inputs, and verifies handling of empty fields.
-2. **Operation Selection**: Confirms all mathematical operations (Sum, Subtract, Multiply, Divide) are selectable and assertable.
-3. **Calculation**: Validates correctness of calculation results across operations.
-4. **Reset Functionality**: Tests the reset button’s ability to clear inputs and selections.
-5. **Edge Cases**: Handles divide-by-zero, negative numbers, decimals, and spacing issues.
+- **Input Validation**: Ensures numeric-only input fields, checks for error messages on invalid inputs, and verifies handling of empty fields.
+- **Operation Selection**: Confirms all mathematical operations (Sum, Subtract, Multiply, Divide) are selectable and assertable.
+- **Calculation**: Validates correctness of calculation results across operations.
+- **Reset Functionality**: Tests the reset button’s ability to clear inputs and selections.
+- **Edge Cases**: Handles divide-by-zero, negative numbers, decimals, and spacing issues.
 
 ## Additional Resources
 - [Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
