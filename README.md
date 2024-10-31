@@ -35,11 +35,13 @@ This test suite covers the following validations:
 - **Appointment Booking**: Tests appointment form with field selections, submission, and confirmation page verification.
 
 ### Saucedemo
+This test suite covers the following validations:
 - **Login with Invalid User and Retry**: Implements conditional login retry after invalid credentials.
 - **Add to Cart**: Logs in, adds an item, and verifies cart contents.
 - **Remove from Cart**: Validates item removal after adding to the cart.
    
 ## Additional Resources
+This test suite covers the following validations:
 - [Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
 - This suite is designed for educational purposes, demonstrating comprehensive test coverage on popular demo applications and practical Selenium techniques.
 
