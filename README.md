@@ -29,6 +29,11 @@ This test suite covers the following validations:
 - **Reset Functionality**: Tests the reset button’s ability to clear inputs and selections.
 - **Edge Cases**: Handles divide-by-zero, negative numbers, decimals, and spacing issues.
 
+### CURA Health Care Service
+- **Footer Verification**: Confirms the footer text and element presence.
+- **Login and Logout**: Validates login with proper credentials and log-out redirection.
+- **Appointment Booking**: Tests appointment form with field selections, submission, and confirmation page verification.
+
 ## Additional Resources
 - [Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
 - This suite is designed for educational purposes, demonstrating comprehensive test coverage on popular demo applications and practical Selenium techniques.
