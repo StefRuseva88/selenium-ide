@@ -19,12 +19,12 @@ This project demonstrates my skills in using Selenium IDE, a record-and-playback
 - Integrating with GitHub Actions for continuous testing and reporting.
 
 ## Tests Structure
-- All recorded tests are organized into a test suites.
-- Every test suite have a clear and descriptive name that indicates its purpose.
--	Each test is named appropriately to reflect the specific task or functionality being tested.
--	The tests are arranged in a logical sequence within the suite.
--	Each test starts in a new browser window to ensure a fresh state.
--	The browser window is maximized at the start of each test to ensure all elements are visible and to maintain consistency across different screen resolutions.
+- All recorded tests are organized into a test suite.
+- Every test suite has a clear and descriptive name that indicates its purpose.
+- Each test is named appropriately to reflect the specific task or functionality being tested.
+- The tests are arranged in a logical sequence within the suite.
+- Each test begins in a new browser window to ensure a fresh state.
+- The browser window is maximized at the start of each test to ensure all elements are visible and to maintain consistency across different screen resolutions.
 
 ### Running Tests
 To run these tests, import the scripts into Selenium IDE and execute. Tests are organized by functionality, allowing targeted validation.
