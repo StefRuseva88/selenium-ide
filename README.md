@@ -31,7 +31,7 @@ To run these tests, import the scripts into Selenium IDE and execute. Tests are 
 
 ### Notes
 - Adjust Chrome security settings for smooth testing when using hardcoded credentials.
-- For Firefox, the Google Password Manager interference is minimized.
+- For Firefox, interference from Google Password Manager is minimized.
   
 ## Project Sections
 
