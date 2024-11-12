@@ -1,0 +1,460 @@
+{
+  "id": "2278b811-d3d5-4731-a7b4-7c590535fad1",
+  "version": "2.0",
+  "name": "RevueCrafters",
+  "url": "https://d3s5nxhwblsjbi.cloudfront.net/",
+  "tests": [{
+    "id": "26ed6362-b27d-4ed1-b19a-231acb042f31",
+    "name": "01.Home Page Navigation Test",
+    "commands": [{
+      "id": "b0afd81d-d143-4e59-aaab-7e85a179d359",
+      "comment": "",
+      "command": "open",
+      "target": "https://d3s5nxhwblsjbi.cloudfront.net/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d940922-a902-4c58-92c3-f79af3bd9f61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1358x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6dc1d22-4577-46b1-872b-911edb0f8bd9",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "RevueCrafters",
+      "targets": [],
+      "value": "RevueCrafters"
+    }, {
+      "id": "139b86fa-fa9c-4e7a-92ca-71708dbbff4c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.me-auto > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#aboutUs')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": "About"
+    }, {
+      "id": "a4f47230-e863-4e79-94f0-a1f14c9bb25c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Services",
+      "targets": [
+        ["linkText=Services", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Services')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#servicePage')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Services')]", "xpath:innerText"]
+      ],
+      "value": "Services"
+    }, {
+      "id": "937f6d21-f090-4785-9f0e-be9eb8a3a3ce",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.nav-item:nth-child(1) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#registerForm')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": "Register"
+    }, {
+      "id": "f569206b-6fcb-4375-af05-9c049c95f0de",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.nav-item:nth-child(2) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Users/Login#loginForm')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": "Login"
+    }, {
+      "id": "9bd232d2-991e-47cc-a984-555296f23084",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "311191bb-e1f6-4561-b81c-1d084a08b3e6",
+    "name": "02.Login test",
+    "commands": [{
+      "id": "c81b1ae4-503b-4c5a-a2f2-121b7193e051",
+      "comment": "",
+      "command": "open",
+      "target": "https://d3s5nxhwblsjbi.cloudfront.net/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24ee60f7-f3be-4a37-9f31-300b35b452b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1358x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ff7d1b7-b574-4d2e-85ef-f65b92269629",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.nav-item:nth-child(2) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Users/Login#loginForm')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5179bbe-01e4-4c6b-8674-58bebbcab78b",
+      "comment": "",
+      "command": "click",
+      "target": "id=form3Example3",
+      "targets": [
+        ["id=form3Example3", "id"],
+        ["name=Email", "name"],
+        ["css=#form3Example3", "css:finder"],
+        ["xpath=//input[@id='form3Example3']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce0e4bce-3433-4d8a-913e-618d4fdb63a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=form3Example3",
+      "targets": [
+        ["id=form3Example3", "id"],
+        ["name=Email", "name"],
+        ["css=#form3Example3", "css:finder"],
+        ["xpath=//input[@id='form3Example3']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "stef88@test.bg"
+    }, {
+      "id": "294ae283-4268-4059-b542-5711b26e4cc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=form3Example4",
+      "targets": [
+        ["id=form3Example4", "id"],
+        ["name=Password", "name"],
+        ["css=#form3Example4", "css:finder"],
+        ["xpath=//input[@id='form3Example4']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "adfddd75-f97b-4f9f-84a6-2e5e1ca79e89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2df8acc-bdba-4bdd-8f8f-505a08e7a335",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=My Revues",
+      "targets": [
+        ["linkText=My Revues", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'My Revues')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Revue/MyRevues#myRevues')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Revues')]", "xpath:innerText"]
+      ],
+      "value": "My Revues"
+    }, {
+      "id": "a2289b08-25ff-4fd8-81b9-9d53bb9c383d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Create Revue",
+      "targets": [
+        ["linkText=Create Revue", "linkText"],
+        ["css=.me-auto > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Create Revue')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Revue/Create#createRevue')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create Revue')]", "xpath:innerText"]
+      ],
+      "value": "Create Revue"
+    }, {
+      "id": "1159add1-8209-403b-ba54-32d96840f126",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Profile",
+      "targets": [
+        ["linkText=Profile", "linkText"],
+        ["css=.nav-item:nth-child(1) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Profile#profilePage')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": "Profile"
+    }, {
+      "id": "38d5dec3-a330-40e2-8bcb-18ffbcf03c11",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Users/Logout')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": "Logout"
+    }, {
+      "id": "7c453dab-777c-459c-8d9f-2a3ac7bbd9e2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h4 > strong",
+      "targets": [
+        ["css=h4 > strong", "css:finder"],
+        ["xpath=//body[@id='homePage']/main/div[2]/div/div/section/div/div[2]/h4/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Dear, stef88')]", "xpath:innerText"]
+      ],
+      "value": "Dear, stef88"
+    }, {
+      "id": "251218a6-e4fe-4b4e-b55d-54fa287d26ab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Users/Logout')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efeebc7c-0753-41af-923d-b2d7e0eab80d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=section:nth-child(1) h4 > strong",
+      "targets": [
+        ["css=section:nth-child(1) h4 > strong", "css:finder"],
+        ["xpath=//div[@id='servicePage']/div/section/div/div[2]/h4/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Explore the World of Reviews')]", "xpath:innerText"]
+      ],
+      "value": "Explore the World of Reviews"
+    }, {
+      "id": "a6eee7c2-c2bc-46e0-a807-a0aac02ca744",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2e7cfe6e-c660-4f95-bb5a-27d61c5747ea",
+    "name": "03.Verify Profile Test",
+    "commands": [{
+      "id": "97c5e996-2c1f-40ec-8fdf-97d93b8a6ebf",
+      "comment": "",
+      "command": "open",
+      "target": "https://d3s5nxhwblsjbi.cloudfront.net/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37d4d299-5dfc-4d66-aeaa-b64f78a9c801",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1358x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e1420ce-226c-45f2-aeb0-10452317910d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.nav-item:nth-child(2) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Users/Login#loginForm')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "681c1825-4534-4abb-a2d9-e9c0671ac2a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=form3Example3",
+      "targets": [
+        ["id=form3Example3", "id"],
+        ["name=Email", "name"],
+        ["css=#form3Example3", "css:finder"],
+        ["xpath=//input[@id='form3Example3']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a92ec34-a891-4f94-ac62-f3be224ec781",
+      "comment": "",
+      "command": "type",
+      "target": "id=form3Example4",
+      "targets": [
+        ["id=form3Example4", "id"],
+        ["name=Password", "name"],
+        ["css=#form3Example4", "css:finder"],
+        ["xpath=//input[@id='form3Example4']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "8301bd1e-f78e-4b88-97f2-7037e2a1fb55",
+      "comment": "",
+      "command": "type",
+      "target": "id=form3Example3",
+      "targets": [
+        ["id=form3Example3", "id"],
+        ["name=Email", "name"],
+        ["css=#form3Example3", "css:finder"],
+        ["xpath=//input[@id='form3Example3']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "stef88@test.bg"
+    }, {
+      "id": "112a2f6c-3058-4280-b5a9-b0dbdc627dc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='loginForm']/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e1daac-c93f-4eed-ac3e-cdac17682023",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile",
+      "targets": [
+        ["linkText=Profile", "linkText"],
+        ["css=.nav-item:nth-child(1) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Profile')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Profile#profilePage')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7e1aac6-28b6-4e4d-bc11-aa8896035ba8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h5",
+      "targets": [
+        ["css=h5", "css:finder"],
+        ["xpath=//section[@id='profilePage']/div/div/div/div/div/div/h5", "xpath:idRelative"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'stef88')]", "xpath:innerText"]
+      ],
+      "value": "stef88"
+    }, {
+      "id": "198535da-abf8-44e2-bbcc-9feadf43c704",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.nav-item:nth-child(2) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Users/Logout')]", "xpath:href"],
+        ["xpath=//ul[2]/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69bc50a0-614a-4795-b11a-edc8d5dfdc4f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.nav-item:nth-child(1) > .text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul[2]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#registerForm')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": "Register"
+    }, {
+      "id": "6dbb596c-37d9-4a25-aa34-422e67a19e1e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "97878f89-0e2a-4f2a-8ff7-521deff387a8",
+    "name": "RevueCraftersTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["26ed6362-b27d-4ed1-b19a-231acb042f31", "311191bb-e1f6-4561-b81c-1d084a08b3e6", "2e7cfe6e-c660-4f95-bb5a-27d61c5747ea"]
+  }, {
+    "id": "da77a137-4fac-4d5c-9e53-6019d2639235",
+    "name": "03.Verify Profile Test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://d3s5nxhwblsjbi.cloudfront.net/"],
+  "plugins": []
+}
