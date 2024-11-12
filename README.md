@@ -5,7 +5,6 @@
 [![Mozilla Firefox](https://img.shields.io/badge/tested%20on-Mozilla%20Firefox-FF7139.svg)](https://www.mozilla.org/firefox/)
 [![Selenium IDE](https://img.shields.io/badge/tested%20with-Selenium%20IDE-FF6C37.svg)](https://www.selenium.dev/selenium-ide/)
 
-## Getting Started
 This project demonstrates my skills in using Selenium IDE, a record-and-playback tool, to quickly create and execute UI tests without needing to write code manually. Selenium IDE allows for easy test case creation and provides a way to export these tests into different programming languages if further customization is required.
 
 ### Prerequisites
