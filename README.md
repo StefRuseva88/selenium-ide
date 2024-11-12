@@ -6,13 +6,12 @@
 [![Selenium IDE](https://img.shields.io/badge/tested%20with-Selenium%20IDE-FF6C37.svg)](https://www.selenium.dev/selenium-ide/)
 
 ## Getting Started
+This project demonstrates my skills in using Selenium IDE, a record-and-playback tool, to quickly create and execute UI tests without needing to write code manually. Selenium IDE allows for easy test case creation and provides a way to export these tests into different programming languages if further customization is required.
+
 ### Prerequisites
 - Selenium IDE for creating and managing test scripts.
 - Chrome or Firefox with Selenium IDE installed for browser compatibility.
 - Developer Tools: Use for copying text assertions and debugging.
-
-## Selenium IDE
-This project demonstrates my skills in using Selenium IDE, a record-and-playback tool, to quickly create and execute UI tests without needing to write code manually. Selenium IDE allows for easy test case creation and provides a way to export these tests into different programming languages if further customization is required.
 
 ### Key Features:
 - Creating automated tests through recording user interactions with the browser.
