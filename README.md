@@ -9,7 +9,7 @@ This project demonstrates my skills in using Selenium IDE, a record-and-playback
 
 ### Prerequisites
 - Selenium IDE for creating and managing test scripts.
-- Chrome or Firefox with Selenium IDE extention installed for browser compatibility.
+- Chrome or Firefox with Selenium IDE extension installed for browser compatibility.
 - Developer Tools: Use for copying text assertions and debugging.
 
 ### Key Features:
