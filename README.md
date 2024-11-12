@@ -43,9 +43,9 @@ This test suite covers the following validations:
 - **Reset Functionality**: Tests the reset button’s ability to clear inputs and selections.
 - **Edge Cases**: Handles divide-by-zero, negative numbers, decimals, and spacing issues.
 
-### "CURA" Health Care Service
+## "CURA" Health Care Service
 This test suite covers the following validations:
-- **Footer Verification**: Confirms the footer text and element presence.
+- **Footer Verification**: Verifies footer text and element presence.
 - **Login and Logout**: Validates login with proper credentials and log-out redirection.
 - **Appointment Booking**: Tests appointment form with field selections, submission, and confirmation page verification.
 
