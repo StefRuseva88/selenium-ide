@@ -35,18 +35,44 @@ This test suite covers the following validations:
 - **Reset Functionality**: Tests the reset button’s ability to clear inputs and selections.
 - **Edge Cases**: Handles divide-by-zero, negative numbers, decimals, and spacing issues.
 
-### CURA Health Care Service
+### "CURA" Health Care Service
 This test suite covers the following validations:
 - **Footer Verification**: Confirms the footer text and element presence.
 - **Login and Logout**: Validates login with proper credentials and log-out redirection.
 - **Appointment Booking**: Tests appointment form with field selections, submission, and confirmation page verification.
 
-### Saucedemo
+### "Saucedemo"
 This test suite covers the following validations:
 - **Login with Invalid User and Retry**: Implements conditional login retry after invalid credentials.
 - **Add to Cart**: Logs in, adds an item, and verifies cart contents.
 - **Remove from Cart**: Validates item removal after adding to the cart.
-   
+
+ ### The "Idea Center" 
+This test suite covers the following validations:
+- **Home Page Navigation Test**: .
+- **Log In Test**: .
+- **Edit Profile Test**: .
+
+### The "Revue Crafters"
+This test suite covers the following validations:
+- **Home Page Navigation Test**: .
+- **Log In Test**: .
+- **Verify Profile Test**: .
+
+### The "Movie Catalog" 
+This test suite covers the following validations:
+- **Landing Page Navigation Test**: .
+- **Log In Test**: .
+- **Edit Profile Test**: .
+
+## Tests Organization
+- Ensure all recorded tests are organized into a test suite.
+- Give the test suite a clear and descriptive name that indicates its purpose.
+-	Name each test appropriately to reflect the specific task or functionality being tested.
+-	Arrange the tests in a logical sequence within the suite.
+-	Each test should start in a new browser window to ensure a fresh state.
+-	Maximize the browser window at the start of each test to ensure all elements are visible and to maintain consistency across different screen resolutions.
+
 ## Additional Resources
 - [Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
 
