@@ -85,7 +85,7 @@ This test suite covers the following validations:
 ### Important Browser Settings
 For testing with Chrome:
 - **Password Breach Warnings**: Disable temporarily in Chrome’s Privacy & Security settings by selecting “Standard protection.”
-- **Script Pause for Manual Pop-Up Handling**: Use pauses for handling pop-ups.
+- **Script Pause for Manual Pop-Up Handling**: Add pauses as needed for handling pop-ups.
   
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
