@@ -18,6 +18,14 @@ This project demonstrates my skills in using Selenium IDE, a record-and-playback
 - Running automated tests directly from the browser to quickly verify web functionalities.
 - Integrating with GitHub Actions for continuous testing and reporting.
 
+## Tests Structure
+- All recorded tests are organized into a test suites.
+- Every test suite have a clear and descriptive name that indicates its purpose.
+-	Each test is named appropriately to reflect the specific task or functionality being tested.
+-	The tests are arranged in a logical sequence within the suite.
+-	Each test starts in a new browser window to ensure a fresh state.
+-	The browser window is maximized at the start of each test to ensure all elements are visible and to maintain consistency across different screen resolutions.
+
 ### Running Tests
 To run these tests, import the scripts into Selenium IDE and execute. Tests are organized by functionality, allowing targeted validation.
 
@@ -70,14 +78,6 @@ This test suite covers the following validations:
 - **Landing Page Navigation Test**: Verifies that users can successfully navigate to the home page and all primary links and elements are accessible and displayed correctly.
 - **Log In Test**: Confirms that users can log into their accounts with valid credentials and are redirected to the correct dashboard or landing page upon successful login.
 - **Edit Profile Test**: Ensures that users can access their profile page, edit their personal details, and save changes, with all updates correctly reflected in the profile information.
-  
-## Tests Structure
-- All recorded tests are organized into a test suites.
-- Every test suite have a clear and descriptive name that indicates its purpose.
--	Each test is named appropriately to reflect the specific task or functionality being tested.
--	The tests are arranged in a logical sequence within the suite.
--	Each test starts in a new browser window to ensure a fresh state.
--	The browser window is maximized at the start of each test to ensure all elements are visible and to maintain consistency across different screen resolutions.
 
 ## Additional Resources
 - [Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
