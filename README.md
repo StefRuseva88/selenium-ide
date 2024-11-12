@@ -65,6 +65,12 @@ This test suite covers the following validations:
 - **Log In Test**: Confirms that users can log into their accounts with valid credentials and are redirected to the correct dashboard or landing page upon successful login.
 - **Edit Profile Test**: Ensures that users can access their profile page, edit their personal details, and save changes, with all updates correctly reflected in the profile information.
 
+### The "Foody" Web App
+This test suite covers the following validations:
+- **Landing Page Navigation Test**: Verifies that users can successfully navigate to the home page and all primary links and elements are accessible and displayed correctly.
+- **Log In Test**: Confirms that users can log into their accounts with valid credentials and are redirected to the correct dashboard or landing page upon successful login.
+- **Edit Profile Test**: Ensures that users can access their profile page, edit their personal details, and save changes, with all updates correctly reflected in the profile information.
+  
 ## Tests Structure
 - All recorded tests are organized into a test suites.
 - Every test suite have a clear and descriptive name that indicates its purpose.
