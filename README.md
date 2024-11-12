@@ -65,13 +65,13 @@ This test suite covers the following validations:
 - **Log In Test**: Confirms that users can log into their accounts with valid credentials and are redirected to the correct dashboard or landing page upon successful login.
 - **Edit Profile Test**: Ensures that users can access their profile page, edit their personal details, and save changes, with all updates correctly reflected in the profile information.
 
-## Tests Organization
-- Ensure all recorded tests are organized into a test suite.
-- Give the test suite a clear and descriptive name that indicates its purpose.
--	Name each test appropriately to reflect the specific task or functionality being tested.
--	Arrange the tests in a logical sequence within the suite.
--	Each test should start in a new browser window to ensure a fresh state.
--	Maximize the browser window at the start of each test to ensure all elements are visible and to maintain consistency across different screen resolutions.
+## Tests Structure
+- All recorded tests are organized into a test suites.
+- Every test suite have a clear and descriptive name that indicates its purpose.
+-	Each test is named appropriately to reflect the specific task or functionality being tested.
+-	The tests are arranged in a logical sequence within the suite.
+-	Each test starts in a new browser window to ensure a fresh state.
+-	The browser window is maximized at the start of each test to ensure all elements are visible and to maintain consistency across different screen resolutions.
 
 ## Additional Resources
 - [Selenium IDE Commands Reference](https://www.selenium.dev/selenium-ide/docs/en/api/commands)
