@@ -86,9 +86,6 @@ This test suite covers the following validations:
 For testing with Chrome:
 - **Password Breach Warnings**: Disable temporarily in Chrome’s Privacy & Security settings by selecting “Standard protection.”
 - **Script Pause for Manual Pop-Up Handling**: Add pauses as needed for handling pop-ups.
-  
-## Contributing
-Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
 
 ## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
